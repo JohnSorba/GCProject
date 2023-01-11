@@ -1,0 +1,111 @@
+body {
+  color: black;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-image: url(/Images/parrots.jpg);
+  background-position-y: -35em;
+  background-size: cover;
+  padding: 3% 10% 0;
+
+  height: 100vh;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: none;
+}
+
+.nav .Logo a {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+.nav .Logo a {
+  text-decoration: none;
+}
+.logo-tour {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 2.5em;
+  list-style-type: none;
+  padding: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px black;
+}
+nav ul li a:hover {
+  color: white;
+  border-bottom: 3px solid black;
+}
+
+.hero {
+  text-align: center;
+  padding: 10% 0;
+}
+.hero h1 {
+  font-size: 5em;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+
+.mid-section {
+  padding: 5% 15%;
+}
+
+.mid-section .sub-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-nav a {
+  color: rgb(128, 115, 4);
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-decoration: none;
+  border-radius: 25%;
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+.footer {
+  color: black;
+  background-color: #cafff6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer nav ul {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer nav ul a {
+  text-shadow: none;
+}

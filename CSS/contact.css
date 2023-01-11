@@ -1,0 +1,23 @@
+header {
+  /* background-image: none; */
+  height: 50vh;
+}
+
+.hero {
+  padding: 3% 0;
+}
+
+.contact_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.contact_details p {
+  font-size: 2.5em;
+}
+.contact_details .emoji {
+  line-height: 2em;
+}

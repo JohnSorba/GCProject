@@ -1,0 +1,70 @@
+header {
+  background-image: url(/Images/beach.jpg); /*replace*/
+  background-position-y: 0;
+  background-size: cover;
+}
+
+.spots {
+  margin: 0;
+  padding: 5% 7%;
+}
+
+.locations {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 100px 100px; */
+  gap: 2em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.locations li {
+  color: white;
+  font-size: 3.5em;
+  padding: 10rem 0;
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.locations .kl {
+  background-image: url(/Images/klcc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .langkawi {
+  background-image: url(/Images/langkawi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .pd {
+  background-image: url(/Images/portdicson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .kuantan {
+  background-image: url(/Images/kuantan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .pp {
+  background-image: url(/Images/pineng.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .bentong {
+  background-image: url(/Images/bentong.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .ipoh {
+  background-image: url(/Images/ipoh2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations .melaka {
+  background-image: url(/Images/melaka.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

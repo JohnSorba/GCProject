@@ -1,0 +1,23 @@
+header {
+  background-image: url(/Images/tigers.jpg);
+  background-position-y: -15em;
+  background-size: cover;
+  height: 75vh;
+}
+.hero {
+  padding: 3% 0;
+}
+
+#main-section {
+  padding: 5% 25%;
+}
+
+article h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+article p {
+  font-size: 1.2em;
+  line-height: 1.3;
+}
