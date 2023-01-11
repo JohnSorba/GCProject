@@ -9,15 +9,18 @@ header {
 
 .contact_details {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 5% 10%;
   text-align: center;
 }
 
 .contact_details p {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .contact_details .emoji {
   line-height: 2em;
+}
+.emoji {
+  font-size: 1.9em;
 }

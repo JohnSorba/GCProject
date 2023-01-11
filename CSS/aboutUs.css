@@ -9,7 +9,11 @@ header {
 }
 
 #main-section {
-  padding: 5% 25%;
+  padding: 5% 30%;
+}
+#main-section p {
+  text-align: justify;
+  line-height: 1.6;
 }
 
 article h1 {
