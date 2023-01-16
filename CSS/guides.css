@@ -6,6 +6,11 @@ header {
 
   height: 50vh;
 }
+
+.mid-section {
+  background-color: aliceblue;
+}
+
 .mid-section h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -20,7 +25,7 @@ header {
   grid-template-areas:
     "shahs faisal"
     "shadman sathis"
-    "daniel daniel";
+    "daniel kavin";
   gap: 1em;
   text-align: center;
 }
@@ -30,8 +35,5 @@ header {
   border-radius: 3rem;
   padding: 1.5rem;
   font-size: 2rem;
-}
-
-.daniel {
-  grid-area: daniel;
+  font-weight: bold;
 }
